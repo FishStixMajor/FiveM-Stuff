@@ -1,0 +1,80 @@
+body {
+    background: none !important;
+}
+
+#container {
+    background-image: url("img/agentorange.jpg");
+    display: none;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 5rem;
+    border-radius: 0.4rem;
+    opacity: 0.9;
+}
+
+#header-style {
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#card-options {
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 9.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.card {
+    filter: blur(2px);
+    -webkit-filter: blur(0.4rem);
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px black;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.spacer {
+    margin: 1rem;
+}
+
+.modal {
+  background-image: url("img/agentorange.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-control, .form-select {
+    border-color: rgba(10, 1, 6, 0.6);
+}
+
+select{
+    text-align-last:center;
+    padding-right: 29px;
+    
+}
+
+input{
+    text-align-last:center;
+    padding-right: 29px;
+    
+}
